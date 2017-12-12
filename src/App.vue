@@ -22,12 +22,11 @@ export default {
   body {
     margin: 0;
     padding: 0;
-    height: 100vh;
   }
   #app {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }

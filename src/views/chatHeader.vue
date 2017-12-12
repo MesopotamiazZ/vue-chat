@@ -17,6 +17,7 @@ export default {
     }
   },
   data () {
+    return {}
   },
   methods: {
     goToSet () {
@@ -37,6 +38,8 @@ export default {
       height: 100%;
       text-align: center;
       line-height: 50px;
+      font-size: 20px;
+      font-weight: 700;
     }
     i {
       position: absolute;
@@ -46,10 +49,4 @@ export default {
       cursor: pointer;
     }
   }
-  // #chatHeader::after {
-  //   content: '\e900';
-  //   position: absolute;
-  //   right: 15px;
-  //   top: 12px;
-  // }
 </style>
